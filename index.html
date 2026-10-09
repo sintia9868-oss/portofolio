@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cynthia Wandari Juliana - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">Cynthia Wandari Juliana</div>
+        <div class="nav-links">
+            <a href="#hero">Beranda</a>
+            <a href="#about">Tentang</a>
+            <a href="#experience">Riwayat</a>
+            <a href="#projects">Karya</a>
+            <a href="#cv">CV</a>
+            <a href="#contact">Kontak</a>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <p class="subtitle">REKAYASA PERANGKAT LUNAK</p>
+            <h1 class="title">Portofolio</h1>
+            <p class="description">
+                Saya adalah siswi Rekayasa Perangkat Lunak yang tertarik pada pengembangan aplikasi, pemrograman web, dan pengelolaan database. Saya terus belajar dan mengembangkan kemampuan melalui berbagai proyek.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Lihat Karya Saya</a>
+                <a href="#cv" class="btn btn-secondary">Lihat CV</a>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <img src="assets/foto_profil.png" alt="Foto Profil Cynthia" class="hero-image">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>Tentang Saya</h2>
+                <p>
+                    Perkenalkan, nama saya Cynthia Wandari Juliana, seorang siswi kelas XII jurusan Rekayasa Perangkat Lunak (RPL) di SMK Negeri 6 Jember. Saya memiliki ketertarikan di bidang teknologi, khususnya pengembangan website dan aplikasi. Saya terus belajar dan mengembangkan keterampilan dalam pemrograman, desain antarmuka, serta pengelolaan database. Saya adalah pribadi yang bertanggung jawab, mau belajar hal baru, dan bersemangat untuk mengembangkan kemampuan di bidang teknologi informasi.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION (Redesigned) -->
+    <section id="experience" class="experience">
+        <h2>Riwayat Pendidikan</h2>
+        <div class="timeline-horizontal">
+            <div class="timeline-line"></div>
+            <div class="timeline-cards">
+                <div class="timeline-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-year">2016 – 2022</div>
+                    <div class="timeline-card-body">
+                        <h3>SDN 01 Sumberagung</h3>
+                        <span class="timeline-badge">Sekolah Dasar</span>
+                    </div>
+                </div>
+                <div class="timeline-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-year">2022 – 2024</div>
+                    <div class="timeline-card-body">
+                        <h3>SMP Negeri 02 Jombang</h3>
+                        <span class="timeline-badge">SMP</span>
+                    </div>
+                </div>
+                <div class="timeline-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-year">2024 – 2027</div>
+                    <div class="timeline-card-body">
+                        <h3>SMK Negeri 6 Jember</h3>
+                        <span class="timeline-badge">RPL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <h2 style="margin-top: 4rem;">Keahlian</h2>
+        <div class="skills-tags">
+            <span class="skill-tag">HTML & CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">PHP Native</span>
+            <span class="skill-tag">Laravel</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Git & GitHub</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">Microsoft Office</span>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <h2>Karya Nyata. Solusi Nyata.</h2>
+        <p class="section-desc">Kumpulan proyek pembelajaran yang saya buat untuk mengembangkan kemampuan pemrograman, desain antarmuka, dan pengelolaan data.</p>
+        
+        <div class="project-grid">
+            <div class="project-card" 
+                 data-title="Sistem Kasir Penjualan Kue"
+                 data-tech="PHP, MySQL, HTML, CSS"
+                 data-desc="Aplikasi kasir berbasis web untuk mengelola penjualan kue. Dilengkapi fitur login multi-user, pengelolaan produk (tambah, edit, hapus), proses transaksi penjualan, dan pembuatan laporan harian/bulanan. Dibangun dengan PHP Native dan database MySQL."
+                 data-img="assets/kasir_kue.png">
+                <div class="project-img-placeholder" style="padding:0; overflow:hidden;">
+                    <img src="assets/kasir_kue.png" alt="Sistem Kasir Penjualan Kue" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="project-info">
+                    <h3>Sistem Kasir Penjualan Kue</h3>
+                    <p class="tech">Teknologi: PHP, MySQL, HTML, CSS.</p>
+                    <p class="desc">Fitur: Login, pengelolaan produk, transaksi, dan laporan.</p>
+                    <button class="btn btn-outline btn-detail">Lihat Detail</button>
+                </div>
+            </div>
+
+            <div class="project-card"
+                 data-title="Aplikasi CRUD Sederhana"
+                 data-tech="HTML, CSS, PHP/Laravel, MySQL"
+                 data-desc="Aplikasi CRUD (Create, Read, Update, Delete) sederhana yang dibangun menggunakan framework Laravel. Aplikasi ini menampilkan data dalam tabel, dan mendukung fitur tambah data baru, edit data yang sudah ada, serta hapus data. Cocok sebagai dasar belajar web development dengan Laravel."
+                 data-img="assets/kasir_estehku.png">
+                <div class="project-img-placeholder" style="padding:0; overflow:hidden;">
+                    <img src="assets/kasir_estehku.png" alt="Aplikasi CRUD Sederhana" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="project-info">
+                    <h3>Aplikasi CRUD Sederhana</h3>
+                    <p class="tech">Teknologi: HTML, CSS, PHP/Laravel, MySQL.</p>
+                    <p class="desc">Fitur: Tambah, tampil, edit, dan hapus data.</p>
+                    <button class="btn btn-outline btn-detail">Lihat Detail</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT MODAL -->
+    <div class="modal-overlay" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-img-wrapper">
+                <img src="" alt="" id="modalImg" class="modal-img">
+            </div>
+            <div class="modal-body">
+                <h2 id="modalTitle"></h2>
+                <div class="modal-tech" id="modalTech"></div>
+                <p class="modal-desc" id="modalDesc"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CV SECTION -->
+    <section id="cv" class="cv">
+        <div class="cv-wrapper">
+            <div class="cv-header-block">
+                <div class="cv-header-photo">
+                    <img src="assets/foto_profil.png" alt="Foto CV Cynthia">
+                </div>
+                <div class="cv-header-text">
+                    <h2>Cynthia Wandari Juliana</h2>
+                    <p class="cv-subheading">SISWI RPL &nbsp;|&nbsp; SMK NEGERI 6 JEMBER</p>
+                    <p class="cv-quote">&ldquo;Belajar hari ini, untuk masa depan yang lebih baik.&rdquo;</p>
+                </div>
+            </div>
+
+            <div class="cv-body">
+                <!-- LEFT -->
+                <div class="cv-left">
+                    <div class="cv-section">
+                        <h4>👤 Data Diri</h4>
+                        <table class="cv-table">
+                            <tr><td>Nama</td><td>: Cynthia Wandari Juliana</td></tr>
+                            <tr><td>TTL</td><td>: Jember, 26 Juli 2009</td></tr>
+                            <tr><td>Jenis Kelamin</td><td>: Perempuan</td></tr>
+                            <tr><td>Agama</td><td>: Islam</td></tr>
+                            <tr><td>Kewarganegaraan</td><td>: Indonesia</td></tr>
+                        </table>
+                    </div>
+                    <div class="cv-section">
+                        <h4>📞 Kontak</h4>
+                        <p>☎ &nbsp;085853579974</p>
+                        <p>✉ &nbsp;sintia9868@gmail.com</p>
+                        <p>📍 Dusun Banjarejo Tengah</p>
+                        <p>📸 @cccintiaaa</p>
+                    </div>
+                    <div class="cv-section">
+                        <h4>🎓 Pendidikan</h4>
+                        <p><strong>SMK Negeri 6 Jember</strong></p>
+                        <p>Jurusan Rekayasa Perangkat Lunak (RPL)</p>
+                        <p>2024 – Sekarang</p>
+                    </div>
+                    <div class="cv-section">
+                        <h4>⚙ Keahlian</h4>
+                        <ul class="cv-skills">
+                            <li>Pemrograman PHP (Laravel &amp; Native)</li>
+                            <li>HTML, CSS, JavaScript</li>
+                            <li>Database MySQL</li>
+                            <li>Git &amp; GitHub</li>
+                            <li>Microsoft Office</li>
+                            <li>Desain UI/UX (Figma)</li>
+                            <li>Kerja tim dan komunikasi</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="cv-right">
+                    <div class="cv-section">
+                        <h4>💬 Profil Singkat</h4>
+                        <p>Saya adalah siswi kelas XII jurusan RPL di SMK Negeri 6 Jember yang memiliki minat besar di bidang teknologi dan pemrograman. Saya senang belajar hal baru, bekerja dalam tim, dan selalu berusaha menjadi pribadi yang lebih baik setiap harinya.</p>
+                    </div>
+                    <div class="cv-section">
+                        <h4>💻 Proyek / Pengalaman</h4>
+                        <ul class="cv-projects">
+                            <li><strong>Aplikasi CRUD Sederhana</strong><br><small>Laravel, PHP Native – login, tambah, edit, hapus data</small></li>
+                            <li><strong>Sistem Kasir Penjualan Kue</strong><br><small>PHP, MySQL – kelola produk, transaksi, laporan</small></li>
+                            <li><strong>Aplikasi Pelanggaran Kelas</strong><br><small>Desain UI/UX Figma – catat pelanggaran siswa</small></li>
+                            <li><strong>Program Perpustakaan (Python)</strong><br><small>CRUD data buku – tambah, tampil, cari, pinjam, kembali</small></li>
+                        </ul>
+                    </div>
+                    <div class="cv-section">
+                        <h4>🎯 Tujuan Karier</h4>
+                        <p>Saya ingin mengembangkan kemampuan di bidang teknologi, khususnya pengembangan aplikasi web, serta berkontribusi dalam menciptakan solusi digital yang bermanfaat di masa depan.</p>
+                    </div>
+                    <div class="cv-footer-text">Terus Belajar, Jadi Versi Terbaik 🌸</div>
+                </div>
+            </div>
+
+            <div class="cv-buttons no-print">
+                <button class="btn cv-btn" onclick="window.print()">🖨️ Cetak</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <h2>Mari Terhubung.</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>📞 085853579974</p>
+                <p>✉️ sintia9868@gmail.com</p>
+                <p>📸 @cccintiaaa</p>
+            </div>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Formulir ini masih berupa demo dan belum mengirim pesan sungguhan.');">
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Anda" required>
+                <textarea rows="5" placeholder="Pesan Anda" required></textarea>
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Cynthia Wandari Juliana. Coded with Purpose.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
